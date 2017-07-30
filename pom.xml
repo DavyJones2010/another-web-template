@@ -16,6 +16,7 @@
     <properties>
         <junit.version>4.4</junit.version>
         <java.encoding>utf-8</java.encoding>
+        <spring.framework.version>4.2.4.RELEASE</spring.framework.version>
     </properties>
 
     <dependencies>

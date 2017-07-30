@@ -10,7 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
     <artifactId>webtemplate-web</artifactId>
-
+    <properties>
+        <servlet.version>2.5</servlet.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>edu.xmu.soft.davywalker</groupId>
