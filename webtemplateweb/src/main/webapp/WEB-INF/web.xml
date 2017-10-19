@@ -5,5 +5,12 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
         http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 	<display-name>webtemplate-web</display-name>
-	
+	<servlet>
+		<servlet-name>sampleServlet</servlet-name>
+		<servlet-class>edu.xmu.webtemplate.sample.SampleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sampleServlet</servlet-name>
+		<url-pattern>/sampleServlet</url-pattern>
+	</servlet-mapping>
 </web-app>
